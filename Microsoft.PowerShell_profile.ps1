@@ -33,6 +33,7 @@ function touch {New-Item $args}
 #path configurations
 $ahkPath = "C:\Program Files\AutoHotkey\v2\AutoHotkey.exe"
 $change_layout_ahk = "C:\Users\eryan\.dotfiles\AutoHotkey\change_layout.ahk"
+$Env:KOMOREBI_CONFIG_HOME = "C:\Users\eryan\.dotfiles\komorebi"
 
 
 #startup configurations
