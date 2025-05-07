@@ -36,7 +36,6 @@ $change_layout_ahk = "C:\Users\eryan\.dotfiles\AutoHotkey\change_layout.ahk"
 $Env:KOMOREBI_CONFIG_HOME = "C:\Users\eryan\.dotfiles\komorebi"
 $Env:WHKD_CONFIG_HOME = "C:\Users\eryan\.dotfiles\komorebi/"
 
-
 #startup configurations
 Start-Process -FilePath $ahkPath -ArgumentList $change_layout_ahk
 

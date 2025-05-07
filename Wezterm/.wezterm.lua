@@ -94,6 +94,14 @@ config.keys = {
       mods = "CTRL",
       action = wezterm.action.ResetFontSize,
     },
+    {
+      key = "P",
+      mods = "CTRL|SHIFT",
+      action = wezterm.action.SpawnCommandInNewTab {
+        domain = { DomainName = 'local' },
+        args = { 'powershell.exe' },
+      }
+    },
 }
 
 
