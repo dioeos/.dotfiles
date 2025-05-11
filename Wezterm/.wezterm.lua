@@ -11,7 +11,7 @@ config.wsl_domains = {
 	},
 }
 config.default_domain = "WSL:Ubuntu"
-config.font = wezterm.font("JetBrains Mono")
+config.font = wezterm.font("IosevkaTerm Nerd Font", { weight = "Regular" })
 
 -- FONT & TEXTS
 config.font_size = 13.0
