@@ -11,6 +11,7 @@ config.wsl_domains = {
 	},
 }
 config.default_domain = "WSL:Ubuntu"
+config.color_scheme = 'Cloud (terminal.sexy)'
 config.font = wezterm.font("IosevkaTerm Nerd Font", { weight = "Regular" })
 
 -- FONT & TEXTS

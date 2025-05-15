@@ -1,18 +1,55 @@
 return {
-    "zaldih/themery.nvim",
-    lazy = false,
-    config = function()
-      require("themery").setup({
-        themes = {
-          "ashen",
-          "boo",
-          "kanagawa",
-          "miasma",
-          "citruszest",
-          "nvimgelion",
-          "evangelion",
-        }
-      })
-      vim.keymap.set('n', '<leader>st', ':Themery<CR>')
-    end
-  }
+	"zaldih/themery.nvim",
+	lazy = false,
+	config = function()
+		require("themery").setup({
+			themes = {
+				{
+					name = "ashen",
+					colorscheme = "ashen",
+				},
+				{
+					name = "sunset cloud",
+					colorscheme = "sunset_cloud",
+				},
+				{
+					name = "forest stream",
+					colorscheme = "forest_stream",
+				},
+				{
+					name = "boo",
+					colorscheme = "boo",
+				},
+				{
+					name = "radioactive waste",
+					colorscheme = "radioactive_waste",
+				},
+				{
+					name = "crimson moonlight",
+					colorscheme = "crimson_moonlight",
+				},
+				{
+					name = "kanagawa",
+					colorscheme = "kanagawa",
+				},
+				{
+					name = "miasma",
+					colorscheme = "miasma",
+				},
+				{
+					name = "citruszest",
+					colorscheme = "citruszest",
+				},
+				{
+					name = "nvimgelion",
+					colorscheme = "nvimgelion",
+				},
+				{
+					name = "evangelion",
+					colorscheme = "nvimgelion",
+				},
+			},
+		})
+		vim.keymap.set("n", "<leader>st", ":Themery<CR>")
+	end,
+}
