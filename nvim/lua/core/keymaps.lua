@@ -3,6 +3,10 @@ vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 vim.keymap.set("n", "<leader>f", "<C-W>W")
 vim.keymap.set("n", "<C-j>", "<C-d>zz")
 vim.keymap.set("n", "<C-k>", "<C-u>zz")
+vim.keymap.set("n", "H", "<C-w>h", { noremap = true, silent = true })
+vim.keymap.set("n", "J", "<C-w>j", { noremap = true, silent = true })
+vim.keymap.set("n", "K", "<C-w>k", { noremap = true, silent = true })
+vim.keymap.set("n", "L", "<C-w>l", { noremap = true, silent = true })
 
 -- General
 vim.keymap.set("n", "<leader>w", "<cmd>write<CR>")
