@@ -5,7 +5,7 @@ function kstart {
     )
 
     if ($arg -eq "bar") {
-        komorebic start --whkd --bar
+        komorebic start --whkd
     } else {
         komorebic start --whkd
     }

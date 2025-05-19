@@ -21,6 +21,12 @@
       "width": 300
     }
   },
+  "animation": {
+    "enabled": true,
+    "duration": 150,
+    "fps": 120,
+    "style": "Linear"
+  },
   "monitors": [
     {
       "workspaces": [

@@ -7,6 +7,10 @@ vim.keymap.set("n", "H", "<C-w>h", { noremap = true, silent = true })
 vim.keymap.set("n", "J", "<C-w>j", { noremap = true, silent = true })
 vim.keymap.set("n", "K", "<C-w>k", { noremap = true, silent = true })
 vim.keymap.set("n", "L", "<C-w>l", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>rh", ":vertical resize -2<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>rl", ":vertical resize +2<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>rj", ":resize -2<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>rk", ":resize +2<CR>", { noremap = true, silent = true })
 
 -- General
 vim.keymap.set("n", "<leader>w", "<cmd>write<CR>")
