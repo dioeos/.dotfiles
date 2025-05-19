@@ -12,4 +12,8 @@ Start-Process "C:\Program Files\komorebi\bin\komorebic.exe" -ArgumentList 'start
 
 Start-Sleep -Seconds 1
 
-Start-Process "C:\Program Files\yasb\yasb.exe" -ArgumentList '--config', 'C:/Users/eryan/yasb.toml'
+Start-Process "C:\Program Files\yasb\yasb.exe" -ArgumentList '--config', 'C:/Users/eryan/.dotfiles/yasb/yasb.toml'
+
+Start-Sleep -Seconds 100
+
+Start-Process "C:\Users\eryan\AppData\Local\Microsoft\WindowsApps\Spotify.exe"

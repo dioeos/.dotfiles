@@ -1,0 +1,23 @@
+[bar]
+position = "top"
+height = 30
+font_family = "IosevkaTerm Nerd Font"
+font_size = 14
+monitor = 0
+theme = "base16-ashes"
+
+[[block]]
+type = "komorebi"
+
+[[block]]
+type = "time"
+format = "%I:%M %p"
+
+[[block]]
+type = "battery"
+
+[[block]]
+type = "memory"
+
+[[block]]
+type = "network"
