@@ -1,0 +1,85 @@
+2025-05-18 23:58:19,145 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-18 23:58:19,145 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-18 23:58:19,146 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-18 23:58:19,240 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-18 23:58:19,523 [ERROR] [MainThread] [root/weather.py:168]: API key or location is missing. Please provide a valid API key and location.
+2025-05-18 23:58:19,529 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-18 23:58:20,731 [ERROR] [MainThread] [root/weather.py:168]: API key or location is missing. Please provide a valid API key and location.
+2025-05-18 23:58:20,842 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\eryan\.config\yasb
+2025-05-18 23:58:21,360 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-80f5a2e8-3465-11f0-9126-5cb47ead76a3
+2025-05-18 23:58:21,395 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-18 23:58:21,402 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-18 23:58:21,704 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-80f5a2e8-3465-11f0-9126-5cb47ead76a3
+2025-05-19 00:08:56,813 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-19 00:08:56,925 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-19 00:08:56,926 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-19 00:08:56,933 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-19 00:08:56,941 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-19 00:08:56,942 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-19 00:08:57,257 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-19 00:08:57,257 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-19 00:08:57,258 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-19 00:08:57,541 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-19 00:08:57,710 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-19 00:08:58,319 [ERROR] [Thread-3 (_get_github_data)] [root/github.py:478]: No internet connection. Unable to fetch notifications.
+2025-05-19 00:08:59,630 [ERROR] [Thread-4 (_get_github_data)] [root/github.py:478]: No internet connection. Unable to fetch notifications.
+2025-05-19 00:08:59,671 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\eryan\.config\yasb
+2025-05-19 00:09:00,047 [INFO] [Dummy-7] [root/event_listener.py:53]: Created named pipe yasb-fdbb6012-3466-11f0-9e49-5cb47ead76a3
+2025-05-19 00:09:00,134 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-19 00:09:00,138 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-19 00:09:00,201 [INFO] [Dummy-7] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-fdbb6012-3466-11f0-9e49-5cb47ead76a3
+2025-05-19 00:09:00,465 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:09:00,465 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:09:00,467 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:09:10,604 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:09:10,604 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:09:10,605 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:09:10,641 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:09:20,754 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:09:20,754 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:09:20,755 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:09:20,762 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:09:30,898 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:09:30,900 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:09:30,901 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:09:30,907 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:09:41,059 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:09:41,059 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:09:41,061 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:09:41,062 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:09:51,194 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:09:51,194 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:09:51,195 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:09:51,200 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:10:01,331 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:10:01,331 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:10:01,331 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:10:01,332 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:10:11,480 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:10:11,480 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:10:11,482 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:10:11,483 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:10:21,622 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:10:21,622 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:10:21,623 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:10:21,623 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:10:31,788 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:10:31,789 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:10:31,790 [WARNING] [MainThread] [root/weather.py:544]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2025-05-19 00:10:31,790 [ERROR] [MainThread] [root/weather.py:77]: Weather response error: ContentAccessDenied 201.
+2025-05-19 00:10:34,304 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-19 00:10:34,411 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-19 00:10:34,411 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-19 00:10:34,494 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-19 00:10:34,505 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-19 00:10:34,507 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-19 00:10:34,554 [ERROR] [Dummy-12] [root/event_service.py:30]: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000001D1A90DB430>. Removing link to WinEvent.EventObjectNameChange.
+2025-05-19 00:10:34,602 [ERROR] [Dummy-12] [root/event_service.py:30]: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000001D1A5488D70>. Removing link to WinEvent.EventObjectNameChange.
+2025-05-19 00:10:34,725 [ERROR] [Dummy-7] [root/event_service.py:30]: Failed to emit signal <bound PYQT_SIGNAL k_signal_update of WorkspaceWidget object at 0x000001D1A5488CD0>. Removing link to KomorebiEvent.KomorebiUpdate.
+2025-05-19 00:10:34,726 [ERROR] [Dummy-7] [root/event_service.py:30]: Failed to emit signal <bound PYQT_SIGNAL k_signal_update of WorkspaceWidget object at 0x000001D1A913E210>. Removing link to KomorebiEvent.KomorebiUpdate.
+2025-05-19 00:10:34,787 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.4
+2025-05-19 00:10:34,787 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.1
+2025-05-19 00:10:34,788 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-19 00:10:34,940 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-19 00:10:35,075 [ERROR] [MainThread] [root/weather.py:168]: API key or location is missing. Please provide a valid API key and location.
+2025-05-19 00:10:35,078 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
