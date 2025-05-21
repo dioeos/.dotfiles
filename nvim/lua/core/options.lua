@@ -1,9 +1,8 @@
 -- General --
-vim.g.mapleader = ' '
+vim.g.mapleader = " "
 vim.opt.encoding = "utf-8"
 vim.opt.fileencoding = "utf-8"
 vim.opt.swapfile = false
-
 
 -- Visuals --
 vim.opt.title = true
@@ -19,7 +18,6 @@ vim.opt.relativenumber = true
 vim.opt.wrap = true
 vim.opt.expandtab = true
 vim.opt.termguicolors = true
-
 
 --vim.api.nvim_create_autocmd("BufWinEnter", {
 --    callback = function()

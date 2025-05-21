@@ -31,6 +31,7 @@
   "nvim-surround": { "branch": "main", "commit": "0e62500b98f4513feaaf7425c135472457ea5b7d" },
   "nvim-tree.lua": { "branch": "master", "commit": "c3c193594213c5e2f89ec5d7729cad805f76b256" },
   "nvim-treesitter": { "branch": "master", "commit": "0e21ee8df6235511c02bab4a5b391d18e165a58d" },
+  "nvim-ts-autotag": { "branch": "main", "commit": "a1d526af391f6aebb25a8795cbc05351ed3620b5" },
   "nvim-web-devicons": { "branch": "master", "commit": "57dfa947cc88cdf1baa2c7e13ed31edddd8fb1d1" },
   "nvimgelion": { "branch": "main", "commit": "28f3b71f8545ff002a1c08ca928799cdf660eccf" },
   "obsidian.nvim": { "branch": "main", "commit": "d6b996733e76549dbbf4741c16640caead1dc8e0" },
@@ -47,7 +48,6 @@
   "transparent.nvim": { "branch": "main", "commit": "8a2749a2fa74f97fe6557f61b89ac7fd873f3c21" },
   "trouble.nvim": { "branch": "main", "commit": "85bedb7eb7fa331a2ccbecb9202d8abba64d37b3" },
   "vim-jinja": { "branch": "master", "commit": "7c54e2320c5f676636cdd8697480782eebfb2bf2" },
-  "vimtex": { "branch": "master", "commit": "7d16d56c765476f3101b2daa2a09f8ab82df9c5d" },
   "which-key.nvim": { "branch": "main", "commit": "370ec46f710e058c9c1646273e6b225acf47cbed" },
   "yazi.nvim": { "branch": "main", "commit": "8418e7028f91feacffcf75236fd4e93a5a3fe911" }
 }

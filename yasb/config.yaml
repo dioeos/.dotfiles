@@ -42,11 +42,50 @@ bars:
           # "komorebi_workspaces",
           "clock",
           "komorebi_active_layout",
+          "cava",
+          "apps",
           # "active_window",
         ]
-      center: ["apps", "cava"]
-      right: ["media", "notifications", "power_menu"]
+      center: []
+      right: ["media", "battery", "power_menu"]
 widgets:
+  wifi:
+    type: "yasb.wifi.WifiWidget"
+    options:
+      label: "<span>{wifi_icon}</span>"
+      label_alt: "{wifi_name} {wifi_strength}%"
+      update_interval: 5000
+      callbacks:
+        on_left: "exec cmd.exe /c start ms-settings:network"
+        on_middle: "do_nothing"
+        on_right: "toggle_label"
+      ethernet_label: "<span>{wifi_icon}</span>"
+      ethernet_label_alt: "<span>{wifi_icon}</span>{ip_addr}"
+      ethernet_icon: "\ueba9"
+      wifi_icons: [
+          "\udb82\udd2e", # Icon for 0% strength
+          "\udb82\udd1f", # Icon for 1-24% strength
+          "\udb82\udd22", # Icon for 25-49% strength
+          "\udb82\udd25", # Icon for 50-74% strength
+          "\udb82\udd28", # Icon for 75-100% strength
+        ]
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [1, 1]
+  battery:
+    type: "yasb.battery.BatteryWidget"
+    options:
+      label: "<span>{icon}</span>{percent}%"
+      label_alt: "{icon} {percent}% | time: {time_remaining}"
+      charging_options:
+        icon_format: "{charging_icon}"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [1, 1]
   cava:
     type: "yasb.cava.CavaWidget"
     options:
@@ -88,7 +127,7 @@ widgets:
       max_field_size:
         label: 24
         label_alt: 24
-      show_thumbnail: true
+      show_thumbnail: false
       controls_only: false
       controls_left: true
       hide_empty: true
