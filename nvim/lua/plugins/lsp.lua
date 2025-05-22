@@ -52,16 +52,6 @@ return {
 
 			lspconfig.html.setup({
 				capabilities = capabilities,
-				filetypes = {
-					"html",
-					"javascriptreact",
-					"javascript.jsx",
-				},
-				init_options = {
-					configurationSection = { "html", "css", "javascript" },
-					embeddedLanguages = { css = true, javascript = true },
-					provideFormatter = true,
-				},
 			})
 
 			lspconfig.emmet_language_server.setup({
@@ -73,7 +63,6 @@ return {
 					"javascriptreact",
 					"typescriptreact",
 					"javascript",
-					"javascript.jsx",
 				},
 			})
 
