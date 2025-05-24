@@ -39,14 +39,12 @@ bars:
     widgets:
       left: [
           # "home",
-          # "komorebi_workspaces",
-          "clock",
           "komorebi_active_layout",
-          "cava",
           "apps",
+          "cava",
           # "active_window",
         ]
-      center: []
+      center: ["clock"]
       right: ["media", "battery", "power_menu"]
 widgets:
   wifi:
@@ -154,7 +152,7 @@ widgets:
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "{%H:%M}"
+      label: "{%d - %H:%M}"
       label_alt: "{%A, %d %B %Y %H:%M}"
       timezones: []
       callbacks:
@@ -163,11 +161,11 @@ widgets:
     type: "komorebi.workspaces.WorkspaceWidget"
     options:
       label_offline: "Komorebi Offline"
-      label_workspace_btn: "\udb81\udc3d"
-      label_workspace_active_btn: "\udb81\udc3e"
-      label_workspace_populated_btn: "\udb81\udc3e"
-      label_default_name: "{index}"
-      label_zero_index: false
+      label_workspace_btn: "{index}"
+      label_workspace_active_btn: "{index}"
+      label_workspace_populated_btn: "{index}"
+      label_default_name: ""
+      label_zero_index: true
       hide_empty_workspaces: false
       hide_if_offline: false
       animation: true

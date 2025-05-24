@@ -33,6 +33,10 @@ return {
 					colorscheme = "kanagawa",
 				},
 				{
+					name = "osaka",
+					colorscheme = "solarized-osaka",
+				},
+				{
 					name = "miasma",
 					colorscheme = "miasma",
 				},
@@ -45,8 +49,8 @@ return {
 					colorscheme = "nvimgelion",
 				},
 				{
-					name = "evangelion",
-					colorscheme = "nvimgelion",
+					name = "eldritch",
+					colorscheme = "eldritch",
 				},
 			},
 		})

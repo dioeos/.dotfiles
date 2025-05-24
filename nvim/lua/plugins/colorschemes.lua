@@ -85,11 +85,21 @@ return {
 	},
 
 	{
-		"xero/evangelion.nvim",
+		"eldritch-theme/eldritch.nvim",
 		lazy = false,
 		priority = 1000,
-		init = function()
-			vim.cmd.colorscheme("evangelion")
+		opts = {},
+	},
+
+	{
+		"craftzdog/solarized-osaka.nvim",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("solarized-osaka").setup({
+				transparent = true,
+				terminal_colors = true,
+			})
 		end,
 	},
 }

@@ -4,6 +4,7 @@ return {
 		local notify = require("notify")
 
 		notify.setup({
+			background_color = "#000000",
 			stages = "fade_in_slide_out",
 			timeout = 1500,
 			render = "default",
