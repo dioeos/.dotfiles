@@ -11,7 +11,6 @@ config.wsl_domains = {
 	},
 }
 config.default_domain = "WSL:Ubuntu"
-config.color_scheme = "Cloud (terminal.sexy)"
 config.font = wezterm.font("IosevkaTerm Nerd Font", { weight = "Regular" })
 config.window_close_confirmation = "NeverPrompt"
 
@@ -19,8 +18,9 @@ config.window_close_confirmation = "NeverPrompt"
 config.font_size = 13.0
 
 -- WINDOW DECORATIONS
+config.win32_system_backdrop = "Acrylic"
 config.hide_tab_bar_if_only_one_tab = true
-config.window_background_opacity = 0.75
+config.window_background_opacity = 0
 config.window_decorations = "RESIZE"
 config.window_padding = {
 	left = 0,
@@ -104,6 +104,38 @@ config.keys = {
 			domain = { DomainName = "local" },
 			args = { "powershell.exe" },
 		}),
+	},
+}
+
+config.colors = {
+	foreground = "#d5c6e0",
+	background = "#16161d",
+	cursor_bg = "#fc735d",
+	cursor_fg = "#16161d",
+	cursor_border = "#fc735d",
+
+	selection_fg = "#d5c6e0",
+	selection_bg = "#373e40",
+
+	ansi = {
+		"#030707", -- black
+		"#fb3475", -- red
+		"#7cb375", -- green
+		"#fcc25d", -- yellow
+		"#b194fa", -- blue
+		"#c51af9", -- magenta
+		"#8bd450", -- cyan
+		"#d5c6e0", -- white
+	},
+	brights = {
+		"#686858", -- bright black
+		"#fc735d", -- bright red
+		"#9ef01a", -- bright green
+		"#d694fa", -- bright yellow
+		"#b8b8ff", -- bright blue
+		"#984695", -- bright magenta
+		"#b194fa", -- bright cyan
+		"#eaf3f5", -- bright white
 	},
 }
 
