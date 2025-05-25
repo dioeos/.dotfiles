@@ -1,0 +1,35 @@
+[default]
+fg = "#d5c6e0"
+bg = "#16161d"
+title = "#fc735d"
+highlight = "#9ef01a"
+cursor = "#fc735d"
+
+[status]
+normal = "#7cb375"
+warning = "#fcc25d"
+error = "#fb3475"
+
+[syntax]
+directory = "#fc735d"
+link = "#b194fa"
+executable = "#8bd450"
+readonly = "#d694fa"
+special = "#c51af9"
+archive = "#b8b8ff"
+media = "#fcc25d"
+document = "#d5c6e0"
+
+[selection]
+fg = "#16161d"
+bg = "#9ef01a"
+
+[search]
+match = "#c51af9"
+
+[progress]
+gauge = "#b194fa"
+label = "#7cb375"
+
+[preview]
+image_bg = "#030707"
