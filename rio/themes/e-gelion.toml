@@ -1,0 +1,54 @@
+[colors]
+# background = "#16161d"
+foreground = "#d5c6e0"
+
+# Selection
+selection-background = "#373e40"
+selection-foreground = "#d5c6e0"
+
+# Navigation
+tabs-active = "#16161d"
+tabs-active-foreground = "#d5c6e0"
+tabs-active-highlight = "#fc735d"
+bar = "#16161d"
+cursor = "#fc735d"
+vi-cursor = "#fc735d"
+
+# Search
+search-match-background = "#373e40"
+search-match-foreground = "#d5c6e0"
+search-focused-match-background = "#fc735d"
+search-focused-match-foreground = "#16161d"
+
+# Regular colors
+black = "#030707"
+red = "#fb3475"
+green = "#7cb375"
+yellow = "#fcc25d"
+blue = "#b194fa"
+magenta = "#c51af9"
+cyan = "#8bd450"
+white = "#d5c6e0"
+tabs = "#030707"  # reuse black or change as needed
+
+# Dim colors (fallback or softened versions — you can customize further)
+dim-black = "#030707"
+dim-red = "#fb3475"
+dim-green = "#7cb375"
+dim-yellow = "#fcc25d"
+dim-blue = "#b194fa"
+dim-magenta = "#c51af9"
+dim-cyan = "#8bd450"
+dim-white = "#d5c6e0"
+dim-foreground = "#a49cb4"
+
+# Light colors (brights)
+light-black = "#686858"
+light-red = "#fc735d"
+light-green = "#9ef01a"
+light-yellow = "#d694fa"
+light-blue = "#b8b8ff"
+light-magenta = "#984695"
+light-cyan = "#b194fa"
+light-white = "#eaf3f5"
+light-foreground = "#eaf3f5"

@@ -1,0 +1,33 @@
+theme = "e-gelion"
+confirm-before-quit = false
+
+# -- FONTS -- 
+[fonts]
+size = 18
+family = "IosevkaTerm Nerd Font"
+
+
+# -- CURSOR -- 
+[cursor]
+shape = 'block'
+blinking = true
+blinking-interval = 400
+
+# -- WINDOW -- 
+[window]
+decorations = "Disabled"
+windows-corner-preference = "Round"
+
+# -- SHELL --
+[shell]
+program = "wsl.exe"
+args = ["~"]
+
+# -- NAVIGATION --
+[navigation]
+mode = "TopTab"
+
+
+
+
+# -- BINDINGS --
