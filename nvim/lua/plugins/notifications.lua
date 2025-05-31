@@ -6,9 +6,9 @@ return {
 		notify.setup({
 			background_color = "#000000",
 			stages = "fade_in_slide_out",
-			timeout = 1500,
+			timeout = 1000,
 			render = "default",
-			max_width = 80,
+			max_width = 50,
 			fps = 60,
 		})
 		vim.notify = notify
