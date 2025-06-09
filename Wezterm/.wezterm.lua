@@ -18,9 +18,9 @@ config.window_close_confirmation = "NeverPrompt"
 config.font_size = 13.0
 
 -- WINDOW DECORATIONS
-config.win32_system_backdrop = "Acrylic"
+-- config.win32_system_backdrop = "Acrylic"
 config.hide_tab_bar_if_only_one_tab = true
-config.window_background_opacity = 0
+-- config.window_background_opacity = 0
 config.window_decorations = "RESIZE"
 config.window_padding = {
 	left = 0,

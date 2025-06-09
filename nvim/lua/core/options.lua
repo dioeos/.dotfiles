@@ -19,6 +19,7 @@ vim.opt.wrap = true
 vim.opt.expandtab = true
 vim.opt.termguicolors = true
 
+-- vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
 --vim.api.nvim_create_autocmd("BufWinEnter", {
 --    callback = function()
 --        vim.opt_local.backspace = { "indent", "eol", "start" }

@@ -1,7 +1,7 @@
 -- Navigation --
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 vim.keymap.set("n", "<leader>f", "<C-W>W")
-vim.keymap.set("n", "<C-j>", "<C-d>zz")
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-k>", "<C-u>zz")
 vim.keymap.set("n", "H", "<C-w>h", { noremap = true, silent = true })
 vim.keymap.set("n", "J", "<C-w>j", { noremap = true, silent = true })

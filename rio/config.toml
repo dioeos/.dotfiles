@@ -4,14 +4,18 @@ confirm-before-quit = false
 # -- FONTS -- 
 [fonts]
 size = 18
-family = "IosevkaTerm Nerd Font"
+# family = "FiraCode Nerd Font"
+# family = "JetBrains Mono"
+# family = "Iosevka Nerd Font"
+# family = "Terminess Nerd Font"
+family = "MesloLGL Nerd Font"
 
 
 # -- CURSOR -- 
 [cursor]
 shape = 'block'
 blinking = true
-blinking-interval = 400
+blinking-interval = 500
 
 # -- WINDOW -- 
 [window]
@@ -25,9 +29,15 @@ args = ["~"]
 
 # -- NAVIGATION --
 [navigation]
-mode = "TopTab"
+mode = "Bookmark"
 
 
 
 
 # -- BINDINGS --
+[bindings]
+keys = [
+{key = "n", with = "control", action = "SelectNextSplit"}
+]
+
+

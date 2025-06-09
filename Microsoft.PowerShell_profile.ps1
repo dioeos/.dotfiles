@@ -17,15 +17,12 @@ function kstop {
 
 #navigation functions
 function j {Set-Location ..}
-
 function 2j {Set-Location ..\..}
-
 function 3j {Set-Location ..\..\..}
-
 function 4j {Set-Location ..\..\..\..}
 
 #general
-
+function vi {nvim .}
 function rm {Remove-Item $args}
 function mv {Move-Item $args}
 function touch {New-Item $args}
