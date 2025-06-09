@@ -1,0 +1,70 @@
+[window]
+decorations = "None"
+padding = { x = 5, y = 5}
+
+[font]
+normal = { family = "IosevkaTerm Nerd Font"}
+
+[colors.primary]
+background = "#0f0d0e"
+foreground = "#d5c7e0"
+
+[colors.selection]
+text = "#d5c6e0"
+background = "#373e40"
+
+[colors.cursor]
+cursor = "#fc735d"
+text = "#16161d"
+
+[colors.search.matches]
+foreground = "#d5c6e0"
+background = "#373e40"
+
+[colors.search.focused_match]
+foreground = "#16161d"
+background = "#fc735d"
+
+[colors.normal]
+black   = "#030707"
+red     = "#fb3475"
+green   = "#7cb375"
+yellow  = "#fcc25d"
+blue    = "#b194fa"
+magenta = "#c51af9"
+cyan    = "#8bd450"
+white   = "#d5c6e0"
+
+[colors.bright]
+black   = "#686858"
+red     = "#fc735d"
+green   = "#9ef01a"
+yellow  = "#d694fa"
+blue    = "#b8b8ff"
+magenta = "#984695"
+cyan    = "#b194fa"
+white   = "#eaf3f5"
+
+[colors.dim]
+black   = "#030707"
+red     = "#fb3475"
+green   = "#7cb375"
+yellow  = "#fcc25d"
+blue    = "#b194fa"
+magenta = "#c51af9"
+cyan    = "#8bd450"
+white   = "#d5c6e0"
+
+[colors.footer_bar]
+background = "#16161d"
+foreground = "#d5c6e0"
+
+
+
+
+[cursor]
+style = { shape = "Block", blinking = "Always"}
+blink_interval = 300
+
+[terminal]
+shell = { program = "wsl.exe", args = ["--cd", "~"]}

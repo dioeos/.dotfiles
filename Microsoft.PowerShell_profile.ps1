@@ -26,6 +26,7 @@ function vi {nvim .}
 function rm {Remove-Item $args}
 function mv {Move-Item $args}
 function touch {New-Item $args}
+function dotf {cd ~/.dotfiles}
 
 #path configurations
 $ahkPath = "C:\Program Files\AutoHotkey\v2\AutoHotkey.exe"
