@@ -15,7 +15,7 @@ return {
 
 		require("nvim-treesitter.configs").setup({
 			ensure_installed = {
-				"c",
+				-- "c",
 				"lua",
 				"vim",
 				"vimdoc",
@@ -24,10 +24,10 @@ return {
 				"markdown_inline",
 				"python",
 				"javascript",
-				"typescript",
 				"html",
 				"css",
 				"jinja",
+				"rust",
 			},
 
 			sync_install = false,
@@ -36,8 +36,6 @@ return {
 
 			highlight = {
 				enable = true,
-
-				-- disable = { "c", "rust" },
 
 				disable = function(lang, buf)
 					local max_filesize = 100 * 1024 -- 100 KB
