@@ -1,0 +1,22 @@
+[
+  {
+    "keys": "mklink <target_path> <new_path>",
+    "action": "Symlink in Windows"
+  },
+  {
+    "keys": "tmux rename-window -t [target-window] [new-name]",
+    "action": "Rename TMUX window"
+  },
+  {
+    "keys": "ysiw)",
+    "action": "(surround_words)"
+  },
+  {
+    "keys": "ds]",
+    "action": "delete around me"
+  },
+  {
+    "keys": "dst",
+    "action": "remove HTML tags"
+  }
+]

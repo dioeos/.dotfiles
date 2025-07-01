@@ -4,6 +4,7 @@ padding = { x = 5, y = 5}
 
 [font]
 normal = { family = "IosevkaTerm Nerd Font"}
+size = 16
 
 [colors.primary]
 background = "#0f0d0e"
@@ -58,8 +59,6 @@ white   = "#d5c6e0"
 [colors.footer_bar]
 background = "#16161d"
 foreground = "#d5c6e0"
-
-
 
 
 [cursor]

@@ -52,6 +52,10 @@ return {
 					name = "eldritch",
 					colorscheme = "eldritch",
 				},
+				{
+					name = ".theme",
+					colorscheme = "my-theme",
+				},
 			},
 		})
 		vim.keymap.set("n", "<leader>st", ":Themery<CR>")
