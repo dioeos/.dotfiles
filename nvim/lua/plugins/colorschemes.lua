@@ -1,4 +1,57 @@
 return {
+	{
+		"neanias/everforest-nvim",
+		version = false,
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("everforest").setup({})
+		end,
+	},
+	{
+		"luisiacc/the-matrix.nvim",
+		lazy = false,
+		priority = 1000,
+	},
+	{
+		"cmoscofian/nibble-vim",
+		lazy = false,
+		priority = 1000,
+	},
+	{
+		"L-Colombo/oldschool.nvim",
+		config = true,
+		-- to ovverride palette colors:
+		-- opts = { <color> = "<hex value>"}
+	},
+	{
+		"EdenEast/nightfox.nvim",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("nightfox").setup({
+				options = {
+					styles = {
+						comments = "italic",
+						conditionals = "italic",
+						constants = "NONE",
+						functions = "NONE",
+						keywords = "NONE",
+						numbers = "NONE",
+						operators = "NONE",
+						strings = "NONE",
+						types = "bold",
+						variables = "NONE",
+					},
+				},
+			})
+		end,
+	},
+	{
+		"whatyouhide/vim-gotham",
+		lazy = false,
+		priority = 1000,
+	},
 	-- ASHEN
 	{
 		"ficcdaf/ashen.nvim",
@@ -63,52 +116,31 @@ return {
 	},
 
 	{
-		"xero/miasma.nvim",
-		lazy = false,
-		priority = 1000,
-		config = function()
-			--vim.cmd("colorscheme miasma")
-		end,
-	},
-
-	{
-		"zootedb0t/citruszest.nvim",
-		lazy = false,
-		priority = 1000,
-	},
-
-	{
 		"nyngwang/nvimgelion",
 		config = function()
 			-- do whatever you want for further customization~
 		end,
 	},
-
-	{
-		"eldritch-theme/eldritch.nvim",
-		lazy = false,
-		priority = 1000,
-		opts = {},
-	},
-
-	{
-		"craftzdog/solarized-osaka.nvim",
-		lazy = false,
-		priority = 1000,
-		config = function()
-			require("solarized-osaka").setup({
-				transparent = true,
-				terminal_colors = true,
-			})
-		end,
-	},
-
-	{
-		"nyoom-engineering/oxocarbon.nvim",
-		lazy = false,
-	},
 	{
 		"ryandioneda/.theme",
 		lazy = false,
+	},
+	{
+		"Mofiqul/adwaita.nvim",
+		lazy = false,
+		priority = 1000,
+	},
+	{
+		"aliqyan-21/darkvoid.nvim",
+	},
+	{
+		"bluz71/vim-moonfly-colors",
+		name = "moonfly",
+		lazy = false,
+		priority = 1000,
+	},
+	{
+		"miikanissi/modus-themes.nvim",
+		priority = 1000,
 	},
 }

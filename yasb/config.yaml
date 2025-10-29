@@ -35,9 +35,9 @@ bars:
       bottom: 4
       right: 0
     widgets:
-      left: ["win_button", "komorebi_workspaces"]
+      left: ["komorebi_workspaces"]
       center: ["clock"]
-      right: ["cava", "battery", "memory", "volume"]
+      right: ["battery", "volume"]
 widgets:
   disk:
     type: "yasb.disk.DiskWidget"

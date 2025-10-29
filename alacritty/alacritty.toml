@@ -4,62 +4,70 @@ padding = { x = 5, y = 5}
 
 [font]
 normal = { family = "IosevkaTerm Nerd Font"}
+# normal = { family = "Perfect DOS VGA 437 Win", style = "Regular" }
 size = 16
 
-[colors.primary]
-background = "#0f0d0e"
-foreground = "#d5c7e0"
+# [colors.primary]
+# background = "#0f0d0e"
+# foreground = "#d5c7e0"
+#
+# [colors.selection]
+# text = "#d5c6e0"
+# background = "#373e40"
+#
+# [colors.cursor]
+# cursor = "#fc735d"
+# text = "#16161d"
+#
+# [colors.search.matches]
+# foreground = "#d5c6e0"
+# background = "#373e40"
+#
+# [colors.search.focused_match]
+# foreground = "#16161d"
+# background = "#fc735d"
+#
+# [colors.normal]
+# black   = "#030707"
+# red     = "#fb3475"
+# green   = "#7cb375"
+# yellow  = "#fcc25d"
+# blue    = "#b194fa"
+# magenta = "#c51af9"
+# cyan    = "#8bd450"
+# white   = "#d5c6e0"
+#
+# [colors.bright]
+# black   = "#686858"
+# red     = "#fc735d"
+# green   = "#9ef01a"
+# yellow  = "#d694fa"
+# blue    = "#b8b8ff"
+# magenta = "#984695"
+# cyan    = "#b194fa"
+# white   = "#eaf3f5"
+#
+# [colors.dim]
+# black   = "#030707"
+# red     = "#fb3475"
+# green   = "#7cb375"
+# yellow  = "#fcc25d"
+# blue    = "#b194fa"
+# magenta = "#c51af9"
+# cyan    = "#8bd450"
+# white   = "#d5c6e0"
+#
+# [colors.footer_bar]
+# background = "#16161d"
+# foreground = "#d5c6e0"
 
-[colors.selection]
-text = "#d5c6e0"
-background = "#373e40"
 
-[colors.cursor]
-cursor = "#fc735d"
-text = "#16161d"
 
-[colors.search.matches]
-foreground = "#d5c6e0"
-background = "#373e40"
 
-[colors.search.focused_match]
-foreground = "#16161d"
-background = "#fc735d"
 
-[colors.normal]
-black   = "#030707"
-red     = "#fb3475"
-green   = "#7cb375"
-yellow  = "#fcc25d"
-blue    = "#b194fa"
-magenta = "#c51af9"
-cyan    = "#8bd450"
-white   = "#d5c6e0"
-
-[colors.bright]
-black   = "#686858"
-red     = "#fc735d"
-green   = "#9ef01a"
-yellow  = "#d694fa"
-blue    = "#b8b8ff"
-magenta = "#984695"
-cyan    = "#b194fa"
-white   = "#eaf3f5"
-
-[colors.dim]
-black   = "#030707"
-red     = "#fb3475"
-green   = "#7cb375"
-yellow  = "#fcc25d"
-blue    = "#b194fa"
-magenta = "#c51af9"
-cyan    = "#8bd450"
-white   = "#d5c6e0"
-
-[colors.footer_bar]
-background = "#16161d"
-foreground = "#d5c6e0"
-
+[scrolling]
+history = 100000
+multiplier = 5
 
 [cursor]
 style = { shape = "Block", blinking = "Always"}
@@ -67,3 +75,123 @@ blink_interval = 300
 
 [terminal]
 shell = { program = "wsl.exe", args = ["--cd", "~"]}
+
+#===GENERAL===
+# [colors.primary]
+# background = "#0a0f14"
+# foreground = "#98d1ce"
+#
+# [colors.normal]
+# black   = "#0a0f14"
+# red     = "#c33027"
+# green   = "#26a98b"
+# yellow  = "#edb54b"
+# blue    = "#195465"
+# magenta = "#4e5165"
+# cyan    = "#33859d"
+# white   = "#98d1ce"
+#
+# [colors.bright]
+# black   = "#10151b"
+# red     = "#d26939"
+# green   = "#081f2d"
+# yellow  = "#245361"
+# blue    = "#093748"
+# magenta = "#888ba5"
+# cyan    = "#599caa"
+# white   = "#d3ebe9"
+
+#===DOS THEME===
+# [colors.primary]
+# background = "#000080"  # DOS blue
+# foreground = "#FFFFFF"  # bright white text
+#
+# [colors.selection]
+# text = "#FFFFFF"
+# background = "#5555FF"
+#
+# [colors.cursor]
+# text = "#0000AA"
+# cursor = "#FFFFFF"
+#
+# [colors.normal]
+# black   = "#000000"
+# red     = "#AA0000"
+# green   = "#00AA00"
+# yellow  = "#AA5500"  # “brown” in VGA
+# blue    = "#2F5FFF"
+# magenta = "#AA00AA"
+# cyan    = "#00AAAA"
+# white   = "#AAAAAA"
+#
+# [colors.bright]
+# black   = "#555555"
+# red     = "#FF5555"
+# green   = "#55FF55"
+# yellow  = "#FFFF55"
+# blue    = "#4F8BFF"
+# magenta = "#FF55FF"
+# cyan    = "#55FFFF"
+# white   = "#FFFFFF"
+#
+# [colors.dim]
+# black   = "#000000"
+# red     = "#7F0000"
+# green   = "#007F00"
+# yellow  = "#7F3F00"
+# blue    = "#00007F"
+# magenta = "#7F007F"
+# cyan    = "#007F7F"
+# white   = "#7F7F7F"
+#
+# [colors.footer_bar]
+# background = "#00007F"
+# foreground = "#FFFFFF"
+
+
+#===MATRIX THEME===
+[colors.primary]
+background = "#000000"  # true black
+foreground = "#00FF66"  # brighter Matrix green
+
+[colors.selection]
+text       = "#000000"
+background = "#00FF66"
+
+[colors.cursor]
+text   = "#002200"
+cursor = "#00FF66"
+
+[colors.normal]
+black   = "#000000"
+red     = "#FF5555"
+green   = "#00FF66"
+yellow  = "#CCFF33"
+blue    = "#33CCFF"
+magenta = "#66FFCC"
+cyan    = "#33FFFF"
+white   = "#C0FFC0"
+
+[colors.bright]
+black   = "#2E2E2E"
+red     = "#FF6666"
+green   = "#33FF99"
+yellow  = "#EEFF66"
+blue    = "#66D9FF"
+magenta = "#99FFCC"
+cyan    = "#99FFFF"
+white   = "#FFFFFF"
+
+[colors.dim]
+black   = "#0A0A0A"
+red     = "#993333"
+green   = "#00CC55"
+yellow  = "#A3D933"
+blue    = "#3399CC"
+magenta = "#33CC99"
+cyan    = "#33CCCC"
+white   = "#99CC99"
+
+[colors.footer_bar]
+background = "#001900"
+foreground = "#00FF66"

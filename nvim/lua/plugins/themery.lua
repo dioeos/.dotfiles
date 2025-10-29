@@ -5,6 +5,42 @@ return {
 		require("themery").setup({
 			themes = {
 				{
+					name = "everforest",
+					colorscheme = "everforest",
+				},
+				{
+					name = "thematrix",
+					colorscheme = "thematrix",
+				},
+				{
+					name = "nibble",
+					colorscheme = "nibble",
+				},
+				{
+					name = "oldschool",
+					colorscheme = "oldschool",
+				},
+				{
+					name = "adwaita",
+					colorscheme = "adwaita",
+				},
+				{
+					name = "darkvoid",
+					colorscheme = "darkvoid",
+				},
+				{
+					name = "gotham",
+					colorscheme = "gotham",
+				},
+				{
+					name = "nightfox",
+					colorscheme = "nightfox",
+				},
+				{
+					name = "carbonfox",
+					colorscheme = "carbonfox",
+				},
+				{
 					name = "ashen",
 					colorscheme = "ashen",
 				},
@@ -33,29 +69,21 @@ return {
 					colorscheme = "kanagawa",
 				},
 				{
-					name = "osaka",
-					colorscheme = "solarized-osaka",
-				},
-				{
-					name = "miasma",
-					colorscheme = "miasma",
-				},
-				{
-					name = "citruszest",
-					colorscheme = "citruszest",
-				},
-				{
 					name = "nvimgelion",
 					colorscheme = "nvimgelion",
 				},
 				{
-					name = "eldritch",
-					colorscheme = "eldritch",
+					name = "moonfly",
+					colorscheme = "moonfly",
 				},
 				{
-					name = ".theme",
-					colorscheme = "my-theme",
+					name = "modus",
+					colorscheme = "modus",
 				},
+				-- {
+				-- 	name = ".theme",
+				-- 	colorscheme = "my-theme",
+				-- },
 			},
 		})
 		vim.keymap.set("n", "<leader>st", ":Themery<CR>")

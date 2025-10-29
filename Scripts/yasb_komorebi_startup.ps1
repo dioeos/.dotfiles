@@ -14,6 +14,10 @@ Start-Sleep -Seconds 1
 
 Start-Process "C:\Program Files\yasb\yasb.exe" -ArgumentList '--config', 'C:/Users/eryan/.dotfiles/yasb/yasb.toml'
 
+Start-Sleep -Seconds 1
+
+Start-Process "mach-keys.exe"
+
 # Start-Sleep -Seconds 10
 #
 # Start-Process "C:\Users\eryan\AppData\Local\Microsoft\WindowsApps\Spotify.exe"

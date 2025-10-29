@@ -4,10 +4,6 @@
     "action": "Symlink in Windows"
   },
   {
-    "keys": "tmux rename-window -t [target-window] [new-name]",
-    "action": "Rename TMUX window"
-  },
-  {
     "keys": "ysiw)",
     "action": "(surround_words)"
   },
@@ -18,5 +14,57 @@
   {
     "keys": "dst",
     "action": "remove HTML tags"
+  },
+  {
+    "keys": "ls -al <path of file or directory>",
+    "action": "List a directory's contents (w/ permissions)"
+  },
+  {
+    "keys": "stat <path of file or directory>",
+    "action": "Show file/dir stats, including permissions"
+  },
+  {
+    "keys": "chmod <mode> <path of file or directory>",
+    "action": "Set file/directory permissions"
+  },
+  {
+    "keys": "spython recipe <path to Dockerfile> <Apptainer Def file name>.def",
+    "action": "Python auto conversion tool"
+  },
+  {
+    "keys": "Stop-Process -Name <process-name>",
+    "action": "Stop a process in pwsh"
+  },
+  {
+    "keys": "docker exec -it <container_id_or_name> sh",
+    "action": "To enter shell for running Docker container"
+  },
+  {
+    "keys": "conda activate <ENVNAME>",
+    "action": "Activate conda environment"
+  },
+  {
+    "keys": "conda create --name <ENVNAME>",
+    "action": "Create conda environment"
+  },
+  {
+    "keys": "conda info --envs",
+    "action": "List all conda environments and locations"
+  },
+  {
+    "keys": "conda deactivate",
+    "action": "Deactivate current conda environment"
+  },
+  {
+    "keys": "go build -buildmode=plugin ../mrapps/wc.go",
+    "action": "Build the word-count plugin in Golang"
+  },
+  {
+    "keys": "rm mr-out*, go run mrcoordinator.go pg-*.txt",
+    "action": "Run the Golang Coordinator in main directory "
+  },
+  {
+    "keys": "go run mrworker.go wc.so",
+    "action": "Run the Golang Worker"
   }
 ]
