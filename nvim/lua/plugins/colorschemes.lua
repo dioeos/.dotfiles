@@ -1,5 +1,57 @@
 return {
 	{
+		"lunacookies/vim-colors-xcode",
+	},
+	{
+		"cocopon/iceberg.vim",
+		lazy = false,
+		priority = 1000,
+	},
+	{
+		"tjammer/blayu.vim",
+		lazy = false,
+		priority = 1000,
+	},
+	{
+		"ntk148v/komau.vim",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("komau").setup({
+				style = "auto",
+				transparent = false,
+				integrations = {
+					treesitter = true,
+					lsp = true,
+					telescope = true,
+					cmp = true,
+					gitsigns = true,
+					which_key = true,
+				},
+				overrides = {
+					String = { fg = "#0F52BA", bold = true },
+					Comment = { fg = "#A020F0", italic = false },
+					["@string"] = { fg = "#0F52BA", bold = true },
+					["@comment"] = { fg = "#A020F0", italic = true },
+				},
+			})
+		end,
+	},
+	{
+		"zenbones-theme/zenbones.nvim",
+		-- Optionally install Lush. Allows for more configuration or extending the colorscheme
+		-- If you don't want to install lush, make sure to set g:zenbones_compat = 1
+		-- In Vim, compat mode is turned on as Lush only works in Neovim.
+		dependencies = "rktjmp/lush.nvim",
+		lazy = false,
+		priority = 1000,
+		-- you can set set configuration options here
+		-- config = function()
+		--     vim.g.zenbones_darken_comments = 45
+		--     vim.cmd.colorscheme('zenbones')
+		-- end
+	},
+	{
 		"neanias/everforest-nvim",
 		version = false,
 		lazy = false,

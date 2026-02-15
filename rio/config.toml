@@ -3,7 +3,7 @@ confirm-before-quit = false
 
 # -- FONTS -- 
 [fonts]
-size = 18
+size = 20
 # family = "FiraCode Nerd Font"
 # family = "JetBrains Mono"
 # family = "Iosevka Nerd Font"

@@ -1,70 +1,46 @@
 [
   {
-    "keys": "mklink <target_path> <new_path>",
-    "action": "Symlink in Windows"
+    "keys": "git reset --soft <commit>",
+    "action": "Move HEAD to <commit> and leave staging area untouched"
   },
   {
-    "keys": "ysiw)",
-    "action": "(surround_words)"
+    "keys": "git reset --hard <commit>",
+    "action": "Resets staging area to match <commit>"
   },
   {
-    "keys": "ds]",
-    "action": "delete around me"
+    "keys": "Stop-Process -Name '<name>'",
+    "action": "Stop process in PWSH"
   },
   {
-    "keys": "dst",
-    "action": "remove HTML tags"
+    "keys": "sudo lsof -i :PORT_NUMBER",
+    "action": "List what is binded to the port number"
   },
   {
-    "keys": "ls -al <path of file or directory>",
-    "action": "List a directory's contents (w/ permissions)"
+    "keys": "sudo kill <PID>",
+    "action": "Kill process that has <PID>"
   },
   {
-    "keys": "stat <path of file or directory>",
-    "action": "Show file/dir stats, including permissions"
+    "keys": ":ObsidianNewFromTemplate [TITLE]",
+    "action": "Create new note from template in obsidian"
   },
   {
-    "keys": "chmod <mode> <path of file or directory>",
-    "action": "Set file/directory permissions"
+    "keys": ":ObsidianSearch [QUERY]",
+    "action": "Search (or create) notes in vault using picker with ripgrep"
   },
   {
-    "keys": "spython recipe <path to Dockerfile> <Apptainer Def file name>.def",
-    "action": "Python auto conversion tool"
+    "keys": ":ObsidianQuickSwitch",
+    "action": "Switch (or open) another note in vault searching by its name"
   },
   {
-    "keys": "Stop-Process -Name <process-name>",
-    "action": "Stop a process in pwsh"
+    "keys": ":ObsidianNew [TITLE]",
+    "action": "Create a new note in Obsidian"
   },
   {
-    "keys": "docker exec -it <container_id_or_name> sh",
-    "action": "To enter shell for running Docker container"
+    "keys": ":ObsidianOpen [QUERY]",
+    "action": "Open a note in the Obsidian App"
   },
   {
-    "keys": "conda activate <ENVNAME>",
-    "action": "Activate conda environment"
-  },
-  {
-    "keys": "conda create --name <ENVNAME>",
-    "action": "Create conda environment"
-  },
-  {
-    "keys": "conda info --envs",
-    "action": "List all conda environments and locations"
-  },
-  {
-    "keys": "conda deactivate",
-    "action": "Deactivate current conda environment"
-  },
-  {
-    "keys": "go build -buildmode=plugin ../mrapps/wc.go",
-    "action": "Build the word-count plugin in Golang"
-  },
-  {
-    "keys": "rm mr-out*, go run mrcoordinator.go pg-*.txt",
-    "action": "Run the Golang Coordinator in main directory "
-  },
-  {
-    "keys": "go run mrworker.go wc.so",
-    "action": "Run the Golang Worker"
+    "keys": ":ObsidianToday",
+    "action": "Open a daily note in Obsidian nvim"
   }
 ]

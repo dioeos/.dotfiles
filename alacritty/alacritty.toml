@@ -1,12 +1,14 @@
 [window]
-decorations = "None"
+decorations = "Full"
 padding = { x = 5, y = 5}
+# opacity = 0.7
 
 [font]
 normal = { family = "IosevkaTerm Nerd Font"}
 # normal = { family = "Perfect DOS VGA 437 Win", style = "Regular" }
-size = 16
+size = 20
 
+# === nvimgelion theme===
 # [colors.primary]
 # background = "#0f0d0e"
 # foreground = "#d5c7e0"
@@ -60,10 +62,6 @@ size = 16
 # [colors.footer_bar]
 # background = "#16161d"
 # foreground = "#d5c6e0"
-
-
-
-
 
 [scrolling]
 history = 100000
@@ -150,48 +148,142 @@ shell = { program = "wsl.exe", args = ["--cd", "~"]}
 
 
 #===MATRIX THEME===
+# [colors.primary]
+# background = "#000000"  # true black
+# foreground = "#00FF66"  # brighter Matrix green
+#
+# [colors.selection]
+# text       = "#000000"
+# background = "#00FF66"
+#
+# [colors.cursor]
+# text   = "#002200"
+# cursor = "#00FF66"
+#
+# [colors.normal]
+# black   = "#000000"
+# red     = "#FF5555"
+# green   = "#00FF66"
+# yellow  = "#CCFF33"
+# blue    = "#33CCFF"
+# magenta = "#66FFCC"
+# cyan    = "#33FFFF"
+# white   = "#C0FFC0"
+#
+# [colors.bright]
+# black   = "#2E2E2E"
+# red     = "#FF6666"
+# green   = "#33FF99"
+# yellow  = "#EEFF66"
+# blue    = "#66D9FF"
+# magenta = "#99FFCC"
+# cyan    = "#99FFFF"
+# white   = "#FFFFFF"
+#
+# [colors.dim]
+# black   = "#0A0A0A"
+# red     = "#993333"
+# green   = "#00CC55"
+# yellow  = "#A3D933"
+# blue    = "#3399CC"
+# magenta = "#33CC99"
+# cyan    = "#33CCCC"
+# white   = "#99CC99"
+#
+# [colors.footer_bar]
+# background = "#001900"
+# foreground = "#00FF66"
+
+#===red theme===
+# [colors.primary]
+# background = "#000000"
+# foreground = "#f69c80"
+#
+# [colors.selection]
+# text = "#243456"
+# background = "#f69c80"
+#
+# [colors.cursor]
+# text = "#243456"
+# cursor = "#fa3e24"
+#
+# [colors.normal]
+# black   = "#341b19"
+# red     = "#fa3e24"
+# green   = "#955a58"
+# yellow  = "#f69c80"
+# blue    = "#56697f"
+# magenta = "#c92b1e"
+# cyan    = "#ff2008"
+# white   = "#f69c80"
+#
+# [colors.bright]
+# black   = "#66221b"
+# red     = "#ff2008"
+# green   = "#f69c80"
+# yellow  = "#fa3e24"
+# blue    = "#56697f"
+# magenta = "#c92b1e"
+# cyan    = "#955a58"
+# white   = "#ffffff"
+#
+# [colors.dim]
+# black   = "#341b19"
+# red     = "#c92b1e"
+# green   = "#66221b"
+# yellow  = "#955a58"
+# blue    = "#243456"
+# magenta = "#fa3e24"
+# cyan    = "#f69c80"
+# white   = "#56697f"
+#
+# [colors.footer_bar]
+# background = "#341b19"
+# foreground = "#f69c80"
+
+#=== blue theme ===
 [colors.primary]
-background = "#000000"  # true black
-foreground = "#00FF66"  # brighter Matrix green
+background = "#000000"  # eternity
+foreground = "#eeeee4"  # green-white
 
 [colors.selection]
-text       = "#000000"
-background = "#00FF66"
+text       = "#063970"  # catalina-blue
+background = "#abdbe3"  # powder-blue
 
 [colors.cursor]
-text   = "#002200"
-cursor = "#00FF66"
+text   = "#21130d"  # eternity
+cursor = "#e28743"  # burnt-sienna
 
 [colors.normal]
-black   = "#000000"
-red     = "#FF5555"
-green   = "#00FF66"
-yellow  = "#CCFF33"
-blue    = "#33CCFF"
-magenta = "#66FFCC"
-cyan    = "#33FFFF"
-white   = "#C0FFC0"
+black   = "#21130d"  # eternity
+red     = "#873e23"  # burnt-umber
+green   = "#eab676"  # tacao
+yellow  = "#e28743"  # burnt-sienna
+blue    = "#1e81b0"  # eastern-blue
+magenta = "#154c79"  # chathams-blue
+cyan    = "#76b5c5"  # glacier
+white   = "#eeeee4"  # green-white
 
 [colors.bright]
-black   = "#2E2E2E"
-red     = "#FF6666"
-green   = "#33FF99"
-yellow  = "#EEFF66"
-blue    = "#66D9FF"
-magenta = "#99FFCC"
-cyan    = "#99FFFF"
-white   = "#FFFFFF"
+black   = "#063970"  # catalina-blue
+red     = "#e28743"  # burnt-sienna
+green   = "#76b5c5"  # glacier
+yellow  = "#eab676"  # tacao
+blue    = "#abdbe3"  # powder-blue
+magenta = "#1e81b0"  # eastern-blue
+cyan    = "#abdbe3"  # powder-blue
+white   = "#eeeee4"  # green-white
 
 [colors.dim]
-black   = "#0A0A0A"
-red     = "#993333"
-green   = "#00CC55"
-yellow  = "#A3D933"
-blue    = "#3399CC"
-magenta = "#33CC99"
-cyan    = "#33CCCC"
-white   = "#99CC99"
+black   = "#21130d"  # eternity
+red     = "#873e23"  # burnt-umber
+green   = "#e28743"  # burnt-sienna
+yellow  = "#eab676"  # tacao
+blue    = "#154c79"  # chathams-blue
+magenta = "#063970"  # catalina-blue
+cyan    = "#1e81b0"  # eastern-blue
+white   = "#abdbe3"  # powder-blue
 
 [colors.footer_bar]
-background = "#001900"
-foreground = "#00FF66"
+background = "#063970"  # catalina-blue
+foreground = "#eeeee4"  # green-white

@@ -42,6 +42,11 @@
       "kind": "Title",
       "id": "Mach",
       "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "Everything",
+      "matching_strategy": "Equals"
     }
   ],
   "monitors": [

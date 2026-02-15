@@ -15,12 +15,10 @@ config.font = wezterm.font("IosevkaTerm Nerd Font", { weight = "Regular" })
 config.window_close_confirmation = "NeverPrompt"
 
 -- FONT & TEXTS
-config.font_size = 13.0
+config.font_size = 16.0
 
 -- WINDOW DECORATIONS
--- config.win32_system_backdrop = "Acrylic"
 config.hide_tab_bar_if_only_one_tab = true
--- config.window_background_opacity = 0
 config.window_decorations = "RESIZE"
 config.window_padding = {
 	left = 0,
@@ -28,9 +26,16 @@ config.window_padding = {
 	top = 2.5,
 	bottom = 2.5,
 }
+-- config.window_background_opacity = 0
+-- config.win32_system_backdrop = "Acrylic"
 config.adjust_window_size_when_changing_font_size = false
 
 config.keys = {
+	{
+		key = "r",
+		mods = "CTRL|SHIFT",
+		action = wezterm.action.ReloadConfiguration,
+	},
 	{
 		key = "X",
 		mods = "CTRL|SHIFT",

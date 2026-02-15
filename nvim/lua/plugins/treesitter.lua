@@ -28,6 +28,9 @@ return {
 				"css",
 				"jinja",
 				"rust",
+				"c_sharp",
+				"typescript",
+				"swift",
 			},
 
 			sync_install = false,

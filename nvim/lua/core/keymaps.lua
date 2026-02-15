@@ -66,5 +66,9 @@ vim.keymap.set("n", "<leader>dq", function()
 	dap.terminate()
 end, { desc = "DAP: Quit Debugger" })
 
+-- Obsidian
+vim.keymap.set("n", "<leader>os", ":ObsidianSearch<CR>")
+vim.keymap.set("n", "<leader>on", ":ObsidianNew<CR>")
+
 -- Notify --
 --vim.keymap.set("n", "<leader>tn", function() require("telescope").extensions.notify.notify() end)

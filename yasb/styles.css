@@ -1,9 +1,11 @@
 * {
-  font-size: 12px;
+  font-size: 14px;
   /* color: #cdd6f4; */
-  color: #d5c6e0;
+  /* color: #d5c6e0; */
+  color: #fffff0;
   font-weight: 500;
-  font-family: "FiraCode Nerd Font";
+  /* font-family: "FiraCode Nerd Font"; */
+  font-family: "Nothing Font (5x7)";
   margin: 0;
   padding: 0;
 }
@@ -15,9 +17,14 @@
 }
 .widget {
   /* background-color: #10151d; */
-  /* background-color: #09061b; */
-  padding: 0 8px;
+  /* background-color: #f00000; */
+  background-color: #09061b;
   margin: 0;
+  padding: 0 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .widget .label {
   padding: 1px 2px 1px 2px;
@@ -40,10 +47,12 @@
   /* border-top-left-radius: 18px; */
   /* border-bottom-left-radius: 18px; */
   background-color: #09061b;
+  /* background-color: #1a314e; */
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+
 }
 
 /* .cava-widget { */
@@ -85,27 +94,27 @@
 .komorebi-workspaces .widget-container,
 .wifi-widget .widget-container,
 .komorebi-active-layout .widget-container {
-  background-color: #09061b;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  /* margin: 4px 0px 4px 0; */
-  /* border-radius: 14px; */
+  font-size: 14px;
+  /* background-color: #ffffff; */
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 .apps-widget .widget-container {
   margin-right: 2px;
 }
 .komorebi-workspaces .ws-btn {
   /* border-radius-top-right: 5px; */
-  font-size: 16px;
+  font-size: 15px;
   margin: 0 4px 0 4px;
   /* color: #5c0f1b; */
-  color: #d5c6e0;
+  /* color: #d5c6e0; */
+  color: #2596be;
   border: none;
 }
 .komorebi-workspaces .ws-btn.populated {
   color: #d5c6e0;
+  /* color: #59231a; */
+  color: #fffff0;
 
   /* color: #9f77b3; */
 }
@@ -113,8 +122,8 @@
 .komorebi-workspaces .ws-btn.populated:hover,
 .komorebi-workspaces .ws-btn.active {
   /* color: #5c0f1b; */
-  color: #adff1c;
-
+  /* color: #adff1c; */
+  color: #2596be;
   background-color: transparent;
 }
 .komorebi-workspaces .float-override {

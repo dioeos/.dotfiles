@@ -2,7 +2,12 @@ return {
 	{
 		"williamboman/mason.nvim",
 		config = function()
-			require("mason").setup()
+			require("mason").setup({
+				registries = {
+					"github:Crashdummyy/mason-registry",
+					"github:mason-org/mason-registry",
+				},
+			})
 		end,
 	},
 
@@ -21,10 +26,50 @@ return {
 					"html",
 					"emmet_language_server",
 					"clangd",
+					"ts_ls",
+					"tailwindcss",
 				},
 			})
 			local lspconfig = require("lspconfig")
 			local capabilities = require("blink.cmp").get_lsp_capabilities()
+
+			lspconfig.tailwindcss.setup({
+				capabilities = capabilities,
+				filetypes = {
+					"html",
+					"css",
+					"scss",
+					"javascriptreact",
+					"typescriptreact",
+					"javascript",
+					"typescript",
+					"typescriptreact",
+					"tsx",
+				},
+				init_options = {
+					userLanguages = {
+						["typescript.tsx"] = "typescriptreact",
+					},
+				},
+			})
+
+			lspconfig.ts_ls.setup({
+				capabilities = capabilities,
+				filetypes = {
+					"typescript",
+					"typescriptreact",
+					"typescript.tsx",
+				},
+				settings = {
+					typescript = {
+						inlayHints = {
+							includeInlayParameterNameHints = "all",
+							includeInlayFunctionLikeReturnTypeHints = true,
+							includeInlayVariableTypeHints = true,
+						},
+					},
+				},
+			})
 
 			lspconfig.clangd.setup({
 				capabilities = capabilities,
@@ -113,6 +158,7 @@ return {
 					"prettier",
 					-- "codelldb",
 					"rust-analyzer",
+					"tailwindcss-language-server",
 				},
 			})
 		end,
