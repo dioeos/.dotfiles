@@ -113,34 +113,35 @@ config.keys = {
 }
 
 config.colors = {
-	foreground = "#d5c6e0",
-	background = "#16161d",
-	cursor_bg = "#fc735d",
-	cursor_fg = "#16161d",
-	cursor_border = "#fc735d",
+	foreground = "#c1c1c1", -- fg
+	background = "#181818", -- bg
+	cursor_bg = "#e78a43", -- type (accent)
+	cursor_fg = "#000000",
+	cursor_border = "#e78a43",
 
-	selection_fg = "#d5c6e0",
-	selection_bg = "#373e40",
+	selection_fg = "#c1c1c1",
+	selection_bg = "#333333", -- visual
 
 	ansi = {
-		"#030707", -- black
-		"#fb3475", -- red
-		"#7cb375", -- green
-		"#fcc25d", -- yellow
-		"#b194fa", -- blue
-		"#c51af9", -- magenta
-		"#8bd450", -- cyan
-		"#d5c6e0", -- white
+		"#3E2018", -- black (alt_bg)
+		"#5f8787", -- red (diag_red)
+		"#c1c1c1", -- green (property)
+		"#888888", -- yellow (func)
+		"#aaaaaa", -- blue (constant)
+		"#999999", -- magenta (keyword)
+		"#fbcb97", -- cyan (string accent)
+		"#c1c1c1", -- white (fg)
 	},
+
 	brights = {
-		"#686858", -- bright black
-		"#fc735d", -- bright red
-		"#9ef01a", -- bright green
-		"#d694fa", -- bright yellow
-		"#b8b8ff", -- bright blue
-		"#984695", -- bright magenta
-		"#b194fa", -- bright cyan
-		"#eaf3f5", -- bright white
+		"#505050", -- bright black (comment)
+		"#6e4c4c", -- bright red (diag_green)
+		"#e78a43", -- bright green (type accent)
+		"#aaaaaa", -- bright yellow (number)
+		"#9b99a3", -- bright blue (operator)
+		"#999999", -- bright magenta (keyword)
+		"#fbcb97", -- bright cyan (string)
+		"#c1c1c1", -- bright white (fg)
 	},
 }
 
