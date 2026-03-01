@@ -5,105 +5,17 @@ return {
 		require("themery").setup({
 			themes = {
 				{
-					name = "xcode",
-					colorscheme = "xcodedark",
+					name = "koda",
+					colorscheme = "koda",
 				},
 				{
-					name = "iceberg",
-					colorscheme = "iceberg",
+					name = "bathory",
+					colorscheme = "bathory",
 				},
 				{
-					name = "blayu",
-					colorscheme = "blayu",
+					name = "khold",
+					colorscheme = "khold",
 				},
-				{
-					name = "komau",
-					colorscheme = "komau",
-				},
-				{
-					name = "zenbones",
-					colorscheme = "zenbones",
-				},
-				{
-					name = "everforest",
-					colorscheme = "everforest",
-				},
-				-- {
-				-- 	name = "thematrix",
-				-- 	colorscheme = "thematrix",
-				-- },
-				-- {
-				-- 	name = "nibble",
-				-- 	colorscheme = "nibble",
-				-- },
-				{
-					name = "oldschool",
-					colorscheme = "oldschool",
-				},
-				{
-					name = "adwaita",
-					colorscheme = "adwaita",
-				},
-				{
-					name = "darkvoid",
-					colorscheme = "darkvoid",
-				},
-				{
-					name = "gotham",
-					colorscheme = "gotham",
-				},
-				{
-					name = "nightfox",
-					colorscheme = "nightfox",
-				},
-				-- {
-				-- 	name = "carbonfox",
-				-- 	colorscheme = "carbonfox",
-				-- },
-				{
-					name = "ashen",
-					colorscheme = "ashen",
-				},
-				-- {
-				-- 	name = "sunset cloud",
-				-- 	colorscheme = "sunset_cloud",
-				-- },
-				-- {
-				-- 	name = "forest stream",
-				-- 	colorscheme = "forest_stream",
-				-- },
-				{
-					name = "boo",
-					colorscheme = "boo",
-				},
-				-- {
-				-- 	name = "radioactive waste",
-				-- 	colorscheme = "radioactive_waste",
-				-- },
-				-- {
-				-- 	name = "crimson moonlight",
-				-- 	colorscheme = "crimson_moonlight",
-				-- },
-				{
-					name = "kanagawa",
-					colorscheme = "kanagawa",
-				},
-				{
-					name = "nvimgelion",
-					colorscheme = "nvimgelion",
-				},
-				-- {
-				-- 	name = "moonfly",
-				-- 	colorscheme = "moonfly",
-				-- },
-				-- {
-				-- 	name = "modus",
-				-- 	colorscheme = "modus",
-				-- },
-				-- {
-				-- 	name = ".theme",
-				-- 	colorscheme = "my-theme",
-				-- },
 			},
 		})
 		vim.keymap.set("n", "<leader>st", ":Themery<CR>")

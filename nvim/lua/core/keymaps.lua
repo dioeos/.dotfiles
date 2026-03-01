@@ -41,31 +41,6 @@ vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
 vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
 
--- DAP --
-local dap = require("dap")
-vim.keymap.set("n", "<leader>db", function()
-	dap.toggle_breakpoint()
-end, { desc = "Toggle Breakpoint" })
-
-vim.keymap.set("n", "<leader>dr", function()
-	dap.continue()
-end, { desc = "Start or Continue Debugger" })
-
--- Start/Continue
-vim.keymap.set("n", "<leader>ds", function()
-	dap.continue()
-end, { desc = "DAP: Start/Continue" })
-
--- Step Over (line by line)
-vim.keymap.set("n", "<leader>dn", function()
-	dap.step_over()
-end, { desc = "DAP: Step Over" })
-
--- Terminate
-vim.keymap.set("n", "<leader>dq", function()
-	dap.terminate()
-end, { desc = "DAP: Quit Debugger" })
-
 -- Obsidian
 vim.keymap.set("n", "<leader>os", ":ObsidianSearch<CR>")
 vim.keymap.set("n", "<leader>on", ":ObsidianNew<CR>")

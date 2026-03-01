@@ -30,7 +30,7 @@ return {
 				"rust",
 				"c_sharp",
 				"typescript",
-				"swift",
+				-- "swift",
 			},
 
 			sync_install = false,

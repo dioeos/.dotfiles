@@ -24,12 +24,6 @@ return {
 						desc = "Recent Files",
 						action = ":lua Snacks.dashboard.pick('oldfiles')",
 					},
-					{
-						icon = " ",
-						key = "c",
-						desc = "Config",
-						action = ":lua Snacks.dashboard.pick('files', {cwd = vim.fn.stdpath('config')})",
-					},
 					{ icon = " ", key = "s", desc = "Restore Session", section = "session" },
 					{
 						icon = "󰒲 ",
@@ -41,19 +35,40 @@ return {
 					{ icon = " ", key = "q", desc = "Quit", action = ":qa" },
 				},
 				header = [[
-
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⠀⠀⠀⠀⠀⠀⡠⢪⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠆⠀⠀⢠⣆⠜⠀⠎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢠⡘⡿⢳⢸⠜⡠⡯⠟⠀⣰⠠⢂⠋⢀⡀⠤⡶⠂⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢠⠐⣇⣈⣛⢰⡱⠟⠀⠀⠀⠰⡳⠊⠑⢰⣮⡄⡀⡀⠀⠀⠀⠀
+⠀⠀⢀⡀⢀⠤⢚⣿⣧⣥⡤⣽⣷⣤⠀⠀⢀⣺⠚⢁⠀⠀⣀⠔⠊⠀⠀⠀⠀⠀
+⠀⠀⣈⠟⠁⡠⣿⣿⣿⣽⣷⣿⣿⣿⠀⡤⣼⠉⠂⢀⠄⠊⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⢰⠃⢠⣿⠿⠛⠉⠀⠀⠈⠉⠛⣿⠥⢾⠇⠈⠒⣒⡒⠶⠆⠀⠀⠀⠀⠀⠀⠀
+⡀⠀⣠⡞⣵⠇⠀⠀⠀⠀⣀⠂⠀⣣⢠⡠⣬⣥⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⢿⠏⢀⢥⠆⠂⡰⠚⣅⠀⠀⠜⢁⠉⠀⠈⠛⣶⣿⡟⠄⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠘⠐⠃⠘⢴⡿⠁⠰⠉⢂⠀⠀⠀⠑⣧⠀⠀⠈⣿⡣⡈⠄⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠐⠀⠀⠠⠃⠀⠈⡄⠀⠀⠀⠘⠀⠀⠀⢸⢹⠛⡞⡄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢀⠂⠀⢀⠕⢱⠐⠀⠀⠀⢣⠀⠀⢸⢊⢡⠈⡶⡀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠈⣦⢢⠂⠀⠀⡀⠀⠀⠀⠀⡄⠀⠀⠀⢻⣜⡀⢲⡀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠰⠻⠖⠀⢀⠊⠃⠀⠀⠀⠀⢿⣀⡜⠀⠀⠹⣷⣶⣷⡀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠃⠀⠀⠀⠀⠀⠀⠈⠋⠀⠀⠀⠀⢹⣿⣿⣿⣤⣄⠤
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠃⠀⠀⠀⠘⣿⣿⣿⣿⣇⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢣⠀⠀⠀⠀⢀⡠⠤⠤⠀⢀⠀⠀⠀⠀⠹⣿⣿⢿⡫⣇
+⠀⠀⠀⠀⠀⠀⠀⠀⣠⢚⢁⡠⠔⠂⠁⠀⠀⠀⠈⠀⠉⠐⠠⡀⠀⠈⠏⢲⠀⠈
+⠀⠀⠀⠀⠀⠀⠀⠀⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢢⡀⢰⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠋⠁⠀⠀
         ]],
 			},
 			sections = {
 				{ section = "header" },
 				{
 					section = "keys",
+					title = "Keys",
 					indent = 1,
 					padding = 1,
 				},
-				{ section = "recent_files", icon = " ", title = "Recent Files", indent = 3, padding = 2 },
-				{ icon = " ", title = "Projects", section = "projects", indent = 2, padding = 1 },
-				{ section = "startup" },
+				{ section = "recent_files", title = "Recent Files", indent = 1, padding = 1 },
+				-- { icon = " ", title = "Projects", section = "projects", indent = 2, padding = 1 },
+				-- { section = "startup" },
 			},
 		},
 		explorer = { enabled = false },
