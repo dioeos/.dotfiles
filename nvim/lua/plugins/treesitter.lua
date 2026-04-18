@@ -30,6 +30,7 @@ return {
 				"rust",
 				"c_sharp",
 				"typescript",
+				"ruby",
 				-- "swift",
 			},
 

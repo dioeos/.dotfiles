@@ -33,6 +33,30 @@ return {
 			local lspconfig = require("lspconfig")
 			local capabilities = require("blink.cmp").get_lsp_capabilities()
 
+			lspconfig.ruby_lsp.setup({
+				cmd = { "bundle", "exec", "ruby-lsp" },
+				capabilities = capabilities,
+				filetypes = { "ruby", "eruby" },
+				init_options = {
+					formatter = "auto",
+				},
+			})
+
+			lspconfig.omnisharp.setup({
+				cmd = {
+					"C:/Users/eryan/tools/omnisharp/OmniSharp.exe",
+				},
+				settings = {
+					FormattingOptions = {
+						EnableEditorConfigSupport = false,
+						OrganizeImports = true,
+					},
+					Sdk = {
+						IncludePrereleases = true,
+					},
+				},
+			})
+
 			lspconfig.tailwindcss.setup({
 				capabilities = capabilities,
 				filetypes = {
@@ -152,13 +176,15 @@ return {
 		config = function()
 			require("mason-tool-installer").setup({
 				ensure_installed = {
-					"clang-format",
+					-- "clang-format",
 					"stylua",
 					-- "black",
 					"prettier",
 					-- "codelldb",
 					"rust-analyzer",
 					"tailwindcss-language-server",
+					-- "erb-formatter",
+					-- "erb-lint",
 				},
 			})
 		end,
@@ -172,7 +198,7 @@ return {
 
 			null_ls.setup({
 				sources = {
-					null_ls.builtins.formatting.clang_format,
+					-- null_ls.builtins.formatting.clang_format,
 					null_ls.builtins.formatting.stylua,
 					-- null_ls.builtins.formatting.black,
 					null_ls.builtins.formatting.prettier,
