@@ -48,7 +48,8 @@ return {
 		interactions = {
 			chat = {
 				adapter = {
-					name = "codex",
+					name = "ollama",
+					model = "qwen2.5-coder:7b",
 				},
 			},
 			inline = {
@@ -71,7 +72,7 @@ return {
 	},
 
 	keys = {
-		{ "<leader>cc", "<cmd>CodeCompanionChat<CR>", mode = "n", desc = "CodeCompanion Chat" },
+		{ "<leader>cc", "<cmd>CodeCompanionChat Toggle<CR>", mode = "n", desc = "CodeCompanion Chat" },
 		{ "<leader>ci", "<cmd>CodeCompanionCLI<CR>", mode = "n", desc = "CodeCompanion CLI" },
 	},
 }
