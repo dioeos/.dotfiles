@@ -25,7 +25,7 @@ return {
 				ollama = function()
 					return require("codecompanion.adapters").extend("ollama", {
 						env = {
-							url = "http://localhost:11434",
+							url = os.getenv("OLLAMA_URL"),
 						},
 						schema = {
 							model = {
@@ -74,5 +74,6 @@ return {
 	keys = {
 		{ "<leader>cc", "<cmd>CodeCompanionChat Toggle<CR>", mode = "n", desc = "CodeCompanion Chat" },
 		{ "<leader>ci", "<cmd>CodeCompanionCLI<CR>", mode = "n", desc = "CodeCompanion CLI" },
+		{ "<leader>ck", "<cmd>CodeCompanionActions<CR>", mode = "n", desc = "Open CodeCompanion Action Palette" },
 	},
 }
